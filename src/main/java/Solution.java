@@ -6,14 +6,13 @@ import java.util.List;
 
 public class Solution {
 
-    public static DataMoveCreature dataMoveCreature;
+    public static DataMoveCreature dataMoveCreature = new DataMoveCreature("World.json");
     public static int worldHeight = 4;
     public static int worldWidth = 4;
     public static Point startPoint = new Point(0,0);
     public static Point endPoint = new Point(worldWidth-1, worldHeight-1);
 
     public static void main(String[] args) {
-        dataMoveCreature = new DataMoveCreature("World.json");
         System.out.println(getResult("STWSWTPPTPTTPWPP","Swamper"));
     }
 
