@@ -1,0 +1,68 @@
+{
+  "worldCell": ["S2","W","T","P"],
+  "creatures": [
+    {
+      "name": "Human",
+      "costMove": [
+        {
+          "name": "S",
+          "cost": 5
+        },
+        {
+          "name": "W",
+          "cost": 2
+        },
+        {
+          "name": "T",
+          "cost": 3
+        },
+        {
+          "name": "P",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "name": "Swamper",
+      "costMove": [
+        {
+          "name": "S",
+          "cost": 2
+        },
+        {
+          "name": "W",
+          "cost": 2
+        },
+        {
+          "name": "T",
+          "cost": 5
+        },
+        {
+          "name": "P",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Woodman",
+      "costMove": [
+        {
+          "name": "S",
+          "cost": 3
+        },
+        {
+          "name": "W",
+          "cost": 3
+        },
+        {
+          "name": "T",
+          "cost": 2
+        },
+        {
+          "name": "P",
+          "cost": 2
+        }
+      ]
+    }
+  ]
+}
